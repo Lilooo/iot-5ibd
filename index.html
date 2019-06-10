@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Alice Giordani using Boostrap">
+    <title>IOT et Big Data · Support de cours</title>
+    <link href="bootstrap/bootstrap.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="bootstrap/jumbotron.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="#">5ESGI IBD</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#plan">Déroulé du cours</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#install">Installation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#refs">Références</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#files">Fichiers</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<main role="main">
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">IOT et Big Data</h1>
+      <p>L'objectif de ce cours est de découvrir des composants électroniques pour IOT (module WiFi et différents capteurs) afin de récolter et interpréter des données</p>
+      <h3>Emploi du temps</h3>
+      <img src="downloads/Giordani.png">
+    </div>
+  </div>
+  <div class="container" id="plan">
+    <!-- Example row of columns -->
+    <div class="row" >
+      <div class="col-md-12">
+        <h2>Déroulé du cours</h2>
+        <ol>
+          <li>
+            Introduction électronique
+          </li>
+          <li>
+            Installation Arduino
+          </li>
+            <ul>
+              <li>
+                Découverte de l'IDE
+              </li>
+              <li>
+                Faire clignoter une LED
+              </li>
+            </ul>
+          <li>
+            ESP 8266 - Wemos D1 mini
+          </li>
+            <ul>
+              <li>
+                Introduction de ce module Wifi
+              </li>
+            </ul>
+          <li>
+            Communication
+          </li>
+            <ul>
+              <li>
+                Rappels systèmes & reseaux (client serveur, distribué, protocoles, sécurité, temps réel, architecture des Os...)
+              </li>
+              <li>
+                Réseaux pour l'IoT : Téléphoniques, Internet, Radio (LoRa), Satellites (cf Sam pour Iridium)
+              </li>
+              <li>
+                Protocoles actuels de l'IoT : XMPP, MQTT et COAP
+              </li>
+              <li>
+                Mise en place d'un serveur MQTT
+              </li>
+            </ul>
+          <u>Évaluation intermédiaire : exercice réalisé en cours (2h)</u>
+          <li>
+            Hackathon
+          </li>
+            <ul>
+              <li>
+                Constitution des équipes
+              </li>
+              <li>
+                Validation des sujets
+              </li>
+              <li>
+                Etat de l'art - recherche de l'existant
+              </li>
+              <li>
+                Réalisation
+              </li>
+              <li>
+                Documentation
+              </li>
+            </ul>
+          <u>Évaluation finale : Soutenance orale et démonstation du projet au reste de la classe</u>
+        </ol>
+      </div>
+    </div>
+    <hr id="install">
+    <div class="row" >
+      <h2>Installation de l'IDE</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Télécharger Arduino</h3>
+        <p>Sur le site <br><a class="btn btn-info" href="https://www.arduino.cc/en/Main/Software" target="_blank" role="button">Arduino.cc</a></p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row" id="refs">
+      <h2>Références</h2>
+      <h3>(RTFM!)</h3>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Arduino, etc...</h4>
+        <ul>
+          <li>
+            <a href="https://arduino.cc/reference" target="_blank">Arduino</a>
+          </li>
+          <li>
+            <a href="https://arduino-esp8266.readthedocs.io/en/latest" target="_blank">ESP 8266</a>
+          </li>
+          <li>
+            <a href="https://wiki.wemos.cc/products:d1:d1_mini" target="_blank">Wemos D1 Mini</a>
+          </li>
+          <li>
+            <a href="https://github.com/mqtt/mqtt.github.io/wiki" target="_blank">MQTT</a>
+          </li>
+          <li>
+            <a href="https://nodered.org/docs/configuration.html" target="_blank">Node RED</a>
+          </li>
+          <li>
+            <a href="https://processing.org/reference" target="_blank">Processing</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h4>Exercices</h4>
+        <ul>
+          <li>
+            <a href="http://barzilouik.space/wiki/doku.php?id=introduction_arduino_-_blink_sur_le_wemos_d1_mini" target="_blank">TP 1 : Faire clignoter une LED</a>
+          </li>
+          <li>
+            <a href="http://barzilouik.space/wiki/doku.php?id=introduction_arduino_-_utiliser_un_capteur" target="_blank">TP 2 : Utiliser un capteur simple</a>
+          </li>
+          <li>
+            <a href="https://github.com/honnet/iot_intro" target="_blank">TP 3 : Contrôle de LEDs à distance avec Wemos D1 Mini</a>
+          </li>
+          <li>
+            <a href="https://projetsdiy.fr/esp8266-dht22-mqtt-projet-objet-connecte/" target="_blank">Exemple ESP8266 + DHT22 + MQTT</a>
+          </li>
+          <li>
+            <a href="https://diyprojects.io/esp-easy-firmware-esp8266-create-connected-objects-smarthome-without-programming/#.XP6JfCbgrVM" target="_blank">ESP Easy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row" id="files">
+      <h2>Fichiers</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Historique Arduino</h4>
+          <p>Présentation @ ITP<br><a class="btn btn-secondary" href="downloads/Arduino-Intro.pdf" target="_blank" role="button">Arduino-Intro.pdf</a></p>
+      </div>
+      <div class="col-md-6">
+        <h4>TP 1</h4>
+          <p>Bases avec Arduino Nano : Faire clignoter une LED et plus si affinités<br><a class="btn btn-secondary" href="downloads/Tuto-Arduino.pdf" target="_blank" role="button">Tuto-Arduino.pdf</a><br><a href="http://barzilouik.space/wiki/doku.php?id=introduction_arduino_-_blink_sur_le_wemos_d1_mini" target="_blank">Particularités Wemos D1 Mini : Faire clignoter une LED</a></p>
+      </div>
+    </div>
+
+    <hr>
+
+  </div> <!-- /container -->
+
+</main>
+
+<footer class="container">
+  <p>©AG 2019</p>
+</footer>
+<script src="bootstrap/jquery-3.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="bootstrap/bootstrap.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+
+</body></html>
