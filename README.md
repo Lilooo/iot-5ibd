@@ -2,4 +2,4 @@
 5ESGI IBD
 Support de cours
 
-Aller sur le site : http://lilooo.github.io/iot-5ibd
+Aller sur le site : http://lilooo.github.io/iot-ibd
